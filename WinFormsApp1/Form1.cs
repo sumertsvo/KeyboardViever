@@ -60,5 +60,24 @@ namespace WinFormsApp1
 
             Application.Exit();
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            foreach (var pict in this.Controls.OfType<PictureBox>())
+            {
+                if (pict.Name == Convert.ToString(e.KeyData))
+                {
+                    pict.Visible = true;
+                }
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            foreach (var pict in this.Controls.OfType<PictureBox>() ) 
+            {
+                pict.Visible =false;
+            }
+        }
     }
 }
