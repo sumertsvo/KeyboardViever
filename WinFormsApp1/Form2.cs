@@ -76,7 +76,6 @@ namespace WinFormsApp1
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
 
-
             if (e.CloseReason == CloseReason.UserClosing)
             {
                 e.Cancel = true;
@@ -87,7 +86,7 @@ namespace WinFormsApp1
 
         private void Form2_KeyDown(object sender, KeyEventArgs e)
         {
-          //  richTextBox1.AppendText(Convert.ToString(e.KeyData));
+            richTextBox1.Text=(Convert.ToString(e.KeyValue));
             //return;
         }
 
@@ -100,7 +99,7 @@ namespace WinFormsApp1
 
         private void Form2_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
-            richTextBox1.AppendText(Convert.ToString(e.KeyValue));
+           // richTextBox1.AppendText(Convert.ToString(e.KeyValue));
 
         }
     }

@@ -65,7 +65,7 @@ namespace WinFormsApp1
         {
             foreach (var pict in this.Controls.OfType<PictureBox>())
             {
-                if (pict.Name == Convert.ToString(e.KeyData))
+                if (pict.Name == Convert.ToString(e.KeyCode))
                 {
                     pict.Visible = true;
                 }
@@ -78,6 +78,21 @@ namespace WinFormsApp1
             {
                 pict.Visible =false;
             }
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Shift_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
