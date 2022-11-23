@@ -39,6 +39,12 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+       /*
+            Location = new Point(Properties.Settings.Default.X, Properties.Settings.Default.Y);
+            Width = Properties.Settings.Default.Width;
+            Height = Properties.Settings.Default.Height;
+            Opacity = Properties.Settings.Default.Opacity;
+      */
             TopMost = true;
             Enabled = false;
             newForm = new Form2();
