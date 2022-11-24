@@ -159,7 +159,7 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
-            this.notifyIcon1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseClick);
+ 
             this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
             // contextMenuStrip1
@@ -208,7 +208,7 @@
             this.Z.Size = new System.Drawing.Size(35, 35);
             this.Z.TabIndex = 7;
             this.Z.TabStop = false;
-            this.Z.Click += new System.EventHandler(this.pictureBox7_Click);
+ 
             // 
             // pictureBox3
             // 
@@ -319,7 +319,7 @@
             this.Shift.Size = new System.Drawing.Size(35, 35);
             this.Shift.TabIndex = 23;
             this.Shift.TabStop = false;
-            this.Shift.Click += new System.EventHandler(this.Shift_Click);
+         
             // 
             // Capital
             // 
@@ -344,7 +344,7 @@
             this.Oemtilde.Size = new System.Drawing.Size(35, 35);
             this.Oemtilde.TabIndex = 20;
             this.Oemtilde.TabStop = false;
-            this.Oemtilde.Click += new System.EventHandler(this.pictureBox16_Click);
+         
             // 
             // pictureBox17
             // 
